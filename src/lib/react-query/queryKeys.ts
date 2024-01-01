@@ -16,5 +16,5 @@ export enum QUERY_KEYS {
     GET_FILE_PREVIEW = "getFilePreview",
   
     //  SEARCH KEYS
-    SEARCH_POSTS = "getSearchPosts",
+    GET_SEARCH_POSTS = "getSearchPosts",
   }
