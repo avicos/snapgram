@@ -9,7 +9,6 @@ import { useUserContext } from '@/context/AuthContext';
 import { useGetUserById, useUpdateUser } from '@/lib/react-query/quriesAndMutations';
 import { ProfileValidation } from '@/lib/validation';
 import { zodResolver } from '@hookform/resolvers/zod';
-import React from 'react';
 import { useForm } from 'react-hook-form';
 import { useNavigate, useParams } from 'react-router-dom';
 import * as z from "zod"

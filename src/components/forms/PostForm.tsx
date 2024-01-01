@@ -21,6 +21,7 @@ import { Models } from "appwrite"
 import { useCreatePost, useUpdatePost } from "@/lib/react-query/quriesAndMutations"
 import { useUserContext } from "@/context/AuthContext"
 import {  useToast } from "../ui/use-toast"
+import Loader from "../shared/Loader"
  
 type PostFormProps = {
   post?: Models.Document;
@@ -156,11 +157,10 @@ const PostForm = ({ post, action} : PostFormProps) => {
           </Button>
           <Button
             type="submit"
-            className="shad-button_primary whitespace-nowrap">
-             {/* disabled={isLoadingCreate || isLoadingUpdate} */}
-            {/* {(isLoadingCreate || isLoadingUpdate) && <Loader />} */}
-            {/* {action}  */}
-            Post
+            className="shad-button_primary whitespace-nowrap"
+            disabled={isLoadingCreate || isLoadingUpdate}>
+            {(isLoadingCreate || isLoadingUpdate) && <Loader />}
+            {action} Post
           </Button>
         </div>
       </form>
