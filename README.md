@@ -1,6 +1,15 @@
 # Snapgram - Photo Sharing Site
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a social media platform inspired by Instagram, where users can create accounts, like posts, and save their favorite posts. It's built with the aim of providing a similar user experience to Instagram while allowing developers to explore the functionalities of such platforms.
+
+Features:
+
+    User Authentication: Users can sign up for an account, log in, and log out securely.
+    Profile Creation: Once logged in, users can create their profiles with personal information and a profile picture.
+    Post Creation: Users can create posts by uploading images along with captions.
+    Post Interactions: Users can like posts created by others.
+    Save Posts: Users can save their favorite posts to view them later.
+    Responsive Design: The platform is designed to be responsive, ensuring a seamless experience across different devices.
 
 Currently, two official plugins are available:
 
